@@ -1,30 +1,13 @@
-# ludum-dare-35
+threejs-es6-boilerplate
+===
 
-## Usage
+Simple THREE.js Application boilerplate to use with ES6.
 
-Install dependencies
+> This project structure was generated through
+> [modern-frontend](https://github.com/endel/generator-modern-frontend)
+> [Yeoman](https://github.com/yeoman/yo)'s generator.
 
-`npm install`
+License
+---
 
-Run a development build...
-
-`npm start`
-
-...or a production build.
-
-`npm run production`
-
-Development builds will copy `phaser.min.js` together with `phaser.map` and `phaser.js`
-Your ES6 code will be transpiled into ES5 and concatenated into a single file.
-A sourcemap for your code will also be included (by default `game.map.js`).
-
-Production builds will only copy `phaser.min.js`. Your ES6 code will be transpiled and
-minified using UglifyJS.
-
-Any modification to the files inside the `./src` and `./static` folder will trigger a full page reload.
-
-If you modify the contents of other files, please manually restart the server.
-
-## Credits
-
-Boilerplate by [belohlavek](https://github.com/belohlavek/phaser-es6-boilerplate)
+MIT
